@@ -14,7 +14,11 @@ export default function Main({ data }) {
     <main>
       <div className="container">
         <div className="d-flex flex-row justify-content-start gap-5">
-          <Button data={data} onClick={handleButtonClick} />
+          <Button
+            data={data}
+            onClick={handleButtonClick}
+            selectedId={selectedId}
+          />
         </div>
 
         <div className="card">
