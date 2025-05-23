@@ -1,0 +1,25 @@
+/* header */
+
+header div {
+    background-color: #F8F9FA;
+
+}
+
+header div h1 {
+    padding: 1.5rem 1rem;
+}
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 2rem;
+}
